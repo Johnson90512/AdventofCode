@@ -6,8 +6,6 @@ just so you know what you're dealing with - you never know if the keys will get
 carried into deeper water by an ocean current or a fish or something.
 '''
 
-import sys
-
 count = 0
 x = 0
 
