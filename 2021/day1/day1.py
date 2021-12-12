@@ -16,4 +16,4 @@ with open('./2021/day1/input.txt') as f:
             count = count + 1
         
         x = line_num
-    print(count - 1)
+print(count - 1)
