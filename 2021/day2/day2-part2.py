@@ -21,11 +21,11 @@ for i in cleaned_list:
     split_list = i.split(" ")
     if 'forward' in split_list[0]:
         horizontal += int(split_list[1])
-        vertical = aim * int(split_list[1])
+        vertical += (aim * int(split_list[1]))
     if 'up' in split_list[0]:
         #vertical -= int(split_list[1])
         aim -= int(split_list[1])
     elif 'down' in split_list[0]:
        #vertical += int(split_list[1])
        aim += int(split_list[1])
-       print(horizontal,  vertical)
+print(horizontal * vertical)
