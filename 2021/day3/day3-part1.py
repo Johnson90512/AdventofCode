@@ -5,7 +5,7 @@ then multiply them together. What is the power consumption of the submarine?
 '''
 cleaned_list = []
 gamma = 0
-epsilon = 1
+epsilon = 0
 gamma_rate = []
 epsilon_rate = []
 
@@ -52,7 +52,7 @@ for i in range(0, len(lines)):
 
 for element in gamma_rate:
     gamma = "".join(gamma_rate)
-    
+
 for element in epsilon_rate:
     epsilon = "".join(epsilon_rate)
 
