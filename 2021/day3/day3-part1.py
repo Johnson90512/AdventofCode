@@ -13,8 +13,6 @@ def gamma_calc(iteration):
     zeros = 0
     ones = 0
     for line in cleaned_list:
-        #TODO: Loop through list to print each line
-        #for char in range(0,len(line)):
         if line[iteration] == '0':
             zeros += 1
         if line[iteration] == '1':
@@ -28,8 +26,6 @@ def epsilon_calc(iteration):
     zeros = 0
     ones = 0
     for line in cleaned_list:
-        #TODO: Loop through list to print each line
-        #for char in range(0,len(line)):
         if line[iteration] == '0':
             zeros += 1
         if line[iteration] == '1':
